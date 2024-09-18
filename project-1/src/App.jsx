@@ -1,24 +1,17 @@
 import React from "react";
+import './App.css';
+import Navigation from './components/Navigation';
+import Herosection from "./components/Hero";
+
 
 export const App = () => {
   return (
     <div>
-      <nav>
-        <div className="logo">
-          <img src="../src/images/brand_logo.png " alt="logo" />
-        </div>
-
-        <ul>
-          <li href="#">Menu</li>
-          <li href="#">Location</li>
-          <li href="#">About</li>
-          <li href="#">Contact</li>
-        </ul>
-
-        <button>login</button>
-      </nav>
+        <Herosection />
+        <Navigation />
     </div>
-  );
+  )
+
 };
 
 export default App;
